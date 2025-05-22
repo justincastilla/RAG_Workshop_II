@@ -1,0 +1,6 @@
+openai
+elasticsearch
+pdfplumber
+requests
+gradio
+python-dotenv

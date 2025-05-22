@@ -4,4 +4,4 @@
 | Embedding Model | Elastic's built-in E5 |
 | Vector Storage & Search | Elasticsearch |
 | LLM for Responses | OpenAI (e.g., GPT-4) |
-| Frontend | Streamlit |
+| Frontend | Gradio |

@@ -22,11 +22,6 @@ es = Elasticsearch(
     api_key=api_key,
 )
 
-es = Elasticsearch(
-    hosts=ELASTIC_ENDPOINT,
-    api_key="Wkh6cGlKWUJ5VTIzbERjazl6ZWs6MVVPMnhMTThJMXJfbVJ4RVRkSHBmQQ==",
-)
-
 MODEL_ID = ".multilingual-e5-small"
 PIPELINE_ID = "e5-ingest-pipeline"
 

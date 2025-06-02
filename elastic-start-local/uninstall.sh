@@ -36,6 +36,9 @@ echo "All data will be deleted and cannot be recovered."
 if ask_confirmation; then
   docker compose rm -fsv
   docker compose down -v
-  rm docker-compose.yml .env uninstall.sh start.sh stop.sh
+  rm docker-compose.yml .env uninstall.sh start.sh stop.sh config/telemetry.yml
+  if [ -z "$(ls -A config)" ]; then
+    rm -d config
+  fi
   echo "Start-local successfully removed"
 fi

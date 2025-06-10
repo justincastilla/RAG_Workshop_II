@@ -4,3 +4,5 @@ pdfplumber
 requests
 gradio
 python-dotenv
+PyPDF2
+transformers
